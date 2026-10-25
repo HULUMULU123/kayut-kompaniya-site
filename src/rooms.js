@@ -82,8 +82,8 @@ export const AMEN = {
 export function picture(id, { alt = '', sizes = '(min-width:1024px) 380px, (min-width:640px) 50vw, 100vw', eager = false, cls = '' } = {}) {
   const p = PHOTOS[id];
   if (!p) return '';
-  const srcset = p.sizes.map((w) => `/assets/img/${id}-${w}.webp ${w}w`).join(', ');
-  const src = `/assets/img/${id}-${p.sizes.includes(800) ? 800 : p.sizes[p.sizes.length - 1]}.webp`;
+  const srcset = p.sizes.map((w) => `${import.meta.env.BASE_URL}assets/img/${id}-${w}.webp ${w}w`).join(', ');
+  const src = `${import.meta.env.BASE_URL}assets/img/${id}-${p.sizes.includes(800) ? 800 : p.sizes[p.sizes.length - 1]}.webp`;
   return `<img class="${cls}" src="${src}" srcset="${srcset}" sizes="${sizes}" width="${p.w}" height="${p.h}" alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
 }
 export const photoSizes = (id) => PHOTOS[id];

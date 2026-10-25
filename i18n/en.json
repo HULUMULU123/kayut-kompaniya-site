@@ -51,7 +51,7 @@
  "cookie.all": "Accept all",
  "cookie.save": "Save choice",
  "cookie.set": "Settings",
- "cookie.text": "We use cookies to make the site work better. Details in the <a href=\"/docs/privacy_policy_ru.pdf\" target=\"_blank\" rel=\"noopener\">privacy policy</a>.",
+ "cookie.text": "We use cookies to make the site work better. Details in the <a href=\"docs/privacy_policy_ru.pdf\" target=\"_blank\" rel=\"noopener\">privacy policy</a>.",
  "cookie.title": "Cookie settings",
  "cta.book": "Book",
  "cta.call": "Call",

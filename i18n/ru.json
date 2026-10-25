@@ -58,7 +58,7 @@
  "cookie.all": "Принять все",
  "cookie.save": "Сохранить выбор",
  "cookie.set": "Настроить",
- "cookie.text": "Мы используем cookie, чтобы сайт работал удобнее. Подробнее в <a href=\"/docs/privacy_policy_ru.pdf\" target=\"_blank\" rel=\"noopener\">политике конфиденциальности</a>.",
+ "cookie.text": "Мы используем cookie, чтобы сайт работал удобнее. Подробнее в <a href=\"docs/privacy_policy_ru.pdf\" target=\"_blank\" rel=\"noopener\">политике конфиденциальности</a>.",
  "cookie.title": "Настройки cookie",
  "cta.book": "Забронировать",
  "cta.call": "Позвонить",
