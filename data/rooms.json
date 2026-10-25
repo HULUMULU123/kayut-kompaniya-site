@@ -1,0 +1,472 @@
+[
+ {
+  "id": "67576",
+  "oldName": "Семейный номер с общей ванной комнатой",
+  "cabinName": "Семейная каюта",
+  "label": "СЕМЕЙНАЯ",
+  "kind": "cabin",
+  "deck": "top",
+  "order": 1,
+  "cellWidth": 200,
+  "capacity": 3,
+  "beds": 3,
+  "bedType": "double+sofa",
+  "bathroom": "shared",
+  "gender": null,
+  "tags": [
+   "family"
+  ],
+  "passport": [
+   "3 ГОСТЯ",
+   "ДВУСПАЛЬНАЯ + ДИВАН",
+   "ТВ"
+  ],
+  "amenities": [
+   "orthopedic",
+   "tv",
+   "shared-bath"
+  ],
+  "description": "Каюта для двух взрослых и одного ребёнка: двуспальная кровать и раскладной диван для ребёнка. Цифровое телевидение, небольшой стол. Ванная комната общая.",
+  "notes": [
+   "Ванная комната общая, расположена на этаже."
+  ],
+  "photos": [
+   "ef87bf54ab587b4c",
+   "770b779421deac65"
+  ],
+  "alt": "Семейная каюта с двуспальной кроватью, жёлтые стены",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67576"
+ },
+ {
+  "id": "67578",
+  "oldName": "Большой семейный номер с общими санузлами на этаже",
+  "cabinName": "Капитанская каюта",
+  "label": "КАПИТАНСКАЯ",
+  "kind": "cabin",
+  "deck": "top",
+  "order": 2,
+  "cellWidth": 280,
+  "capacity": 6,
+  "capacityTodo": true,
+  "beds": 6,
+  "bedType": "family",
+  "bathroom": "shared",
+  "gender": null,
+  "tags": [
+   "family",
+   "group"
+  ],
+  "passport": [
+   "ДО 6 ГОСТЕЙ",
+   "4 ОКНА",
+   "ОБЩИЕ САНУЗЛЫ"
+  ],
+  "amenities": [
+   "tv",
+   "ac",
+   "shared-bath"
+  ],
+  "description": "Просторный светлый номер с четырьмя окнами. Есть всё необходимое для проживания большой семьи или компании. Санузлы общие, на этаже.",
+  "notes": [
+   "Санузлы общие, на этаже.",
+   "Условия размещения в этой категории уточняйте у администратора."
+  ],
+  "photos": [
+   "04d7450f647fbf6a",
+   "b6aee88284d0d25a",
+   "2cb0a7c499872f88"
+  ],
+  "alt": "Просторная капитанская каюта с четырьмя окнами, телевизором и кондиционером",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67578"
+ },
+ {
+  "id": "148877",
+  "oldName": "Стандартный 1-местный номер",
+  "cabinName": "Каюта юнги",
+  "label": "ЮНГА",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 1,
+  "cellWidth": 132,
+  "capacity": 1,
+  "beds": 1,
+  "bedType": "single",
+  "bathroom": "own",
+  "gender": null,
+  "tags": [
+   "solo"
+  ],
+  "passport": [
+   "1 ГОСТЬ",
+   "СВОЙ САНУЗЕЛ",
+   "ТВ",
+   "КОНДИЦИОНЕР"
+  ],
+  "amenities": [
+   "shower",
+   "tv",
+   "ac"
+  ],
+  "description": "Уютная одноместная каюта с собственным санузлом и душевой кабиной. Кондиционер и телевизор.",
+  "notes": [],
+  "photos": [
+   "4d46c08aad165f39",
+   "a5d8f897e3728a3f"
+  ],
+  "alt": "Одноместная каюта юнги с кроватью, телевизором и кондиционером",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=148877"
+ },
+ {
+  "id": "264007",
+  "oldName": "Улучшенный стандартный 1-местный номер",
+  "cabinName": "Каюта юнги Комфорт",
+  "label": "ЮНГА КОМФОРТ",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 2,
+  "cellWidth": 132,
+  "capacity": 1,
+  "beds": 1,
+  "bedType": "single",
+  "bathroom": "shared",
+  "gender": null,
+  "tags": [
+   "solo"
+  ],
+  "passport": [
+   "1 ГОСТЬ",
+   "КРОВАТЬ 90×200",
+   "ОБЩИЙ САНУЗЕЛ"
+  ],
+  "amenities": [
+   "orthopedic",
+   "linen"
+  ],
+  "description": "Уютная одноместная каюта. Кровать 90×200 с ортопедическим матрасом и бельём из натуральных тканей (хлопок). Санузел на этаже.",
+  "notes": [
+   "Санузел на этаже."
+  ],
+  "photos": [
+   "82c84449ba56efce",
+   "a555d94c83a81563"
+  ],
+  "alt": "Одноместная каюта с кроватью и ортопедическим матрасом",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=264007"
+ },
+ {
+  "id": "263989",
+  "oldName": "Улучшенный стандартный 2-местный номер, двуспальная кровать",
+  "cabinName": "Каюта штурмана",
+  "label": "ШТУРМАН",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 3,
+  "cellWidth": 168,
+  "capacity": 2,
+  "beds": 2,
+  "bedType": "double",
+  "bathroom": "shared",
+  "gender": null,
+  "tags": [
+   "duo"
+  ],
+  "passport": [
+   "2 ГОСТЯ",
+   "ДВУСПАЛЬНАЯ",
+   "ОБЩИЙ САНУЗЕЛ"
+  ],
+  "amenities": [
+   "orthopedic",
+   "linen"
+  ],
+  "description": "Удобная двухместная каюта с двуспальной кроватью, ортопедическими матрасами и бельём из натуральных тканей. Санузел на этаже.",
+  "notes": [
+   "Санузел на этаже."
+  ],
+  "photos": [
+   "f43a11ca85f86fe1",
+   "d84ba1581cfc27b5",
+   "0dfe45e9fc9715c3",
+   "998f6545b1305da3"
+  ],
+  "alt": "Двухместная каюта штурмана с двуспальной кроватью",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=263989"
+ },
+ {
+  "id": "263986",
+  "oldName": "Улучшенный стандартный 2-местный номер, раздельные кровати",
+  "cabinName": "Каюта штурмана, раздельные койки",
+  "label": "ШТУРМАН · РАЗД.",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 4,
+  "cellWidth": 168,
+  "capacity": 2,
+  "beds": 2,
+  "bedType": "twin",
+  "bathroom": "shared",
+  "gender": null,
+  "tags": [
+   "duo"
+  ],
+  "passport": [
+   "2 ГОСТЯ",
+   "РАЗДЕЛЬНЫЕ КОЙКИ",
+   "ОБЩИЙ САНУЗЕЛ"
+  ],
+  "amenities": [
+   "orthopedic",
+   "linen"
+  ],
+  "description": "Удобная двухместная каюта с раздельными кроватями, ортопедическими матрасами и бельём из натуральных тканей. Санузел на этаже.",
+  "notes": [
+   "Санузел на этаже."
+  ],
+  "photos": [
+   "c17c2a88687d496e",
+   "539b73ea37055846",
+   "893105ed52db7ea1"
+  ],
+  "alt": "Двухместная каюта с двумя отдельными кроватями",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=263986"
+ },
+ {
+  "id": "317410",
+  "oldName": "Стандартный 2-местный номер",
+  "cabinName": "Каюта офицера",
+  "label": "ОФИЦЕР",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 5,
+  "cellWidth": 168,
+  "capacity": 2,
+  "beds": 2,
+  "bedType": "double",
+  "bathroom": "own",
+  "gender": null,
+  "tags": [
+   "duo"
+  ],
+  "passport": [
+   "2 ГОСТЯ",
+   "ДВУСПАЛЬНАЯ",
+   "ТВ",
+   "КОНДИЦИОНЕР"
+  ],
+  "amenities": [
+   "orthopedic",
+   "shower",
+   "tv",
+   "ac"
+  ],
+  "description": "Каюта с двуспальной кроватью и ортопедическим матрасом. Собственный санузел с душевой кабиной, телевизор и кондиционер.",
+  "notes": [],
+  "photos": [
+   "f1bc8bee08432a7b",
+   "99fe716743509bd4",
+   "5008cbe3f6d157af"
+  ],
+  "alt": "Двухместная каюта офицера с двуспальной кроватью и телевизором",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=317410"
+ },
+ {
+  "id": "149056",
+  "oldName": "Стандартный 2-местный номер с раздельными кроватями",
+  "cabinName": "Каюта офицера, раздельные койки",
+  "label": "ОФИЦЕР · РАЗД.",
+  "kind": "cabin",
+  "deck": "main",
+  "order": 6,
+  "cellWidth": 168,
+  "capacity": 2,
+  "beds": 2,
+  "bedType": "twin",
+  "bathroom": "own",
+  "gender": null,
+  "tags": [
+   "duo"
+  ],
+  "passport": [
+   "2 ГОСТЯ",
+   "2 ОДНОСПАЛЬНЫЕ",
+   "СВОЙ САНУЗЕЛ"
+  ],
+  "amenities": [
+   "shower"
+  ],
+  "description": "Уютная каюта с двумя односпальными кроватями. Санузел с душевой кабиной в каюте.",
+  "notes": [],
+  "photos": [
+   "185fb3acaedfed38",
+   "7be2b9a07390cc93"
+  ],
+  "alt": "Двухместная каюта офицера с двумя односпальными кроватями",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=149056"
+ },
+ {
+  "id": "67575",
+  "oldName": "4-местный номер (мужской)",
+  "cabinName": "Баркас (мужской)",
+  "label": "БАРКАС · М",
+  "kind": "barkas",
+  "deck": "lower",
+  "order": 1,
+  "cellWidth": 232,
+  "capacity": 4,
+  "beds": 4,
+  "bedType": "single",
+  "bathroom": "shared",
+  "gender": "male",
+  "tags": [
+   "group",
+   "budget",
+   "solo"
+  ],
+  "passport": [
+   "4 МЕСТА",
+   "КРОВАТИ 80×200",
+   "ТОЛЬКО МУЖЧИНЫ"
+  ],
+  "amenities": [
+   "lamp"
+  ],
+  "description": "Каюта с односпальными кроватями 80×200. В распоряжении каждого гостя светильник в изголовье кровати и полочка.",
+  "notes": [
+   "Общая кухня-гостиная и санузлы на этаже."
+  ],
+  "photos": [
+   "aecd7c2918a5fac7",
+   "b1c169fb6bec5869"
+  ],
+  "alt": "Мужской четырёхместный баркас с индивидуальными кроватями",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67575"
+ },
+ {
+  "id": "67574",
+  "oldName": "4-местный номер (женский)",
+  "cabinName": "Баркас (женский)",
+  "label": "БАРКАС · Ж",
+  "kind": "barkas",
+  "deck": "lower",
+  "order": 2,
+  "cellWidth": 232,
+  "capacity": 4,
+  "beds": 4,
+  "bedType": "single",
+  "bathroom": "shared",
+  "gender": "female",
+  "tags": [
+   "group",
+   "budget",
+   "solo"
+  ],
+  "passport": [
+   "4 МЕСТА",
+   "КРОВАТИ 90×200",
+   "ТОЛЬКО ЖЕНЩИНЫ"
+  ],
+  "amenities": [
+   "lamp"
+  ],
+  "description": "Каюта с односпальными кроватями 90×200. В распоряжении каждого гостя светильник в изголовье кровати и полочка.",
+  "notes": [
+   "Общая кухня-гостиная и санузлы на этаже."
+  ],
+  "photos": [
+   "6ee8d4850f51a532",
+   "9e1923d0e8fc1b46"
+  ],
+  "alt": "Женский четырёхместный баркас с зелёными стенами",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67574"
+ },
+ {
+  "id": "67573",
+  "oldName": "Эконом 8-местный номер (мужской)",
+  "cabinName": "Кубрик (мужской)",
+  "label": "КУБРИК · М",
+  "kind": "kubrik",
+  "deck": "lower",
+  "order": 3,
+  "cellWidth": 300,
+  "capacity": 8,
+  "beds": 8,
+  "bedType": "bunk",
+  "bathroom": "shared",
+  "gender": "male",
+  "tags": [
+   "group",
+   "budget",
+   "solo"
+  ],
+  "passport": [
+   "8 МЕСТ",
+   "ДВУХЪЯРУСНЫЕ",
+   "ТОЛЬКО МУЖЧИНЫ"
+  ],
+  "amenities": [
+   "lamp",
+   "orthopedic"
+  ],
+  "description": "Просторный кубрик с двухъярусными кроватями. Места максимально изолированы друг от друга, у каждого свой светильник, розетка и полочка.",
+  "notes": [
+   "Общая кухня-гостиная и санузлы на этаже."
+  ],
+  "photos": [
+   "83a0ff600456e60c",
+   "9da551c2b7da5f04"
+  ],
+  "alt": "Мужской восьмиместный кубрик с двухъярусными кроватями и шторками",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67573"
+ },
+ {
+  "id": "67572",
+  "oldName": "Эконом 8-местный номер (женский)",
+  "cabinName": "Кубрик (женский)",
+  "label": "КУБРИК · Ж",
+  "kind": "kubrik",
+  "deck": "lower",
+  "order": 4,
+  "cellWidth": 300,
+  "capacity": 8,
+  "beds": 8,
+  "bedType": "bunk",
+  "bathroom": "shared",
+  "gender": "female",
+  "tags": [
+   "group",
+   "budget",
+   "solo"
+  ],
+  "passport": [
+   "8 МЕСТ",
+   "ДВУХЪЯРУСНЫЕ",
+   "ТОЛЬКО ЖЕНЩИНЫ"
+  ],
+  "amenities": [
+   "lamp",
+   "orthopedic"
+  ],
+  "description": "Просторный кубрик с двухъярусными кроватями. Места максимально изолированы друг от друга, у каждого свой светильник, розетка и полочка.",
+  "notes": [
+   "Общая кухня-гостиная и санузлы на этаже."
+  ],
+  "photos": [
+   "01095f4b455a71f5",
+   "881425632b2f9210"
+  ],
+  "alt": "Женский восьмиместный кубрик с жёлтыми шторками",
+  "priceFrom": null,
+  "bookingUrl": "https://hostelkaytcompany.ru/booking/?room-type=67572"
+ }
+]

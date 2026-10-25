@@ -1,0 +1,139 @@
+[
+ {
+  "id": "quay",
+  "name": "Набережная Амура",
+  "categories": [
+   "walk",
+   "amur"
+  ],
+  "angleDeg": 35,
+  "ringHint": 10,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Прогулки вдоль реки и вид на Амур.",
+  "photo": null,
+  "icon": "waves",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%90%D0%BC%D1%83%D1%80%D0%B0"
+ },
+ {
+  "id": "bridge",
+  "name": "Вид на Амурский мост",
+  "categories": [
+   "amur"
+  ],
+  "angleDeg": 70,
+  "ringHint": 15,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Железнодорожный мост через Амур, открыт в 1916 году.",
+  "photo": null,
+  "icon": "landmark",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%92%D0%B8%D0%B4%20%D0%BD%D0%B0%20%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%BE%D1%81%D1%82"
+ },
+ {
+  "id": "ponds",
+  "name": "Городские пруды",
+  "categories": [
+   "walk"
+  ],
+  "angleDeg": 205,
+  "ringHint": 10,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Парковая зона с водоёмами в центре города.",
+  "photo": null,
+  "icon": "trees",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BF%D1%80%D1%83%D0%B4%D1%8B"
+ },
+ {
+  "id": "square",
+  "name": "Комсомольская площадь",
+  "categories": [
+   "walk",
+   "culture"
+  ],
+  "angleDeg": 150,
+  "ringHint": 5,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Главная площадь города.",
+  "photo": null,
+  "icon": "landmark",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%9A%D0%BE%D0%BC%D1%81%D0%BE%D0%BC%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C"
+ },
+ {
+  "id": "cathedral",
+  "name": "Успенский собор",
+  "categories": [
+   "culture"
+  ],
+  "angleDeg": 110,
+  "ringHint": 10,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Золотые купола над центром города.",
+  "photo": null,
+  "icon": "church",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%BE%D0%B1%D0%BE%D1%80"
+ },
+ {
+  "id": "museum",
+  "name": "Краеведческий музей им. Гродекова",
+  "categories": [
+   "culture"
+  ],
+  "angleDeg": 20,
+  "ringHint": 10,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Краевой музей, основан в 1894 году.",
+  "photo": null,
+  "icon": "landmark",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%9A%D1%80%D0%B0%D0%B5%D0%B2%D0%B5%D0%B4%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D0%B8%D0%BC.%20%D0%93%D1%80%D0%BE%D0%B4%D0%B5%D0%BA%D0%BE%D0%B2%D0%B0"
+ },
+ {
+  "id": "cafes",
+  "name": "Кафе рядом",
+  "categories": [
+   "errands"
+  ],
+  "angleDeg": 255,
+  "ringHint": 5,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Рядом много кафе, по отзывам гостей.",
+  "photo": null,
+  "icon": "coffee",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%9A%D0%B0%D1%84%D0%B5%20%D1%80%D1%8F%D0%B4%D0%BE%D0%BC"
+ },
+ {
+  "id": "shop",
+  "name": "Продуктовый магазин",
+  "categories": [
+   "errands"
+  ],
+  "angleDeg": 300,
+  "ringHint": 5,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Продуктовый магазин рядом, по отзывам гостей.",
+  "photo": null,
+  "icon": "shopping-bag",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%9F%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD"
+ },
+ {
+  "id": "stops",
+  "name": "Автобусные остановки",
+  "categories": [
+   "errands"
+  ],
+  "angleDeg": 335,
+  "ringHint": 5,
+  "walkMin": null,
+  "distanceM": null,
+  "teaser": "Рядом автобусные остановки, по отзывам гостей.",
+  "photo": null,
+  "icon": "bus",
+  "mapUrl": "https://2gis.ru/khabarovsk/search/%D0%90%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%BD%D1%8B%D0%B5%20%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8"
+ }
+]

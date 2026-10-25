@@ -1,0 +1,118 @@
+/* ---------- hero «Порт Хабаровск» ---------- */
+.hero { --sh: clamp(420px, 42.2vw, 760px); --w: max(100%, calc(var(--sh) * 2.3684)); --text: var(--ink); --text-2: var(--ink-muted); --eyebrow: var(--sea-700); --accent-word: var(--sea-700); transition: background-color 600ms; background: var(--sea-50) url(/assets/hero-poster.svg) no-repeat 66% 100% / var(--w) auto; }
+.hero__h1 { color: var(--text); transition: color 600ms; }
+.hero__sub { color: var(--text-2); transition: color 600ms; }
+.hero .eyebrow { color: var(--eyebrow); transition: color 600ms; }
+.hero .accent-word { color: var(--accent-word); transition: color 600ms; }
+.hero .facts li { color: var(--text); transition: color 600ms; }
+.hero .facts .ic { color: var(--eyebrow); }
+.hero[data-watch="night"] { --text: #fff; --text-2: #C9DFEC; --eyebrow: #C9DFEC; --accent-word: var(--sand-300); background: var(--sea-900); background-image: none; }
+body.is-night .hdr:not(.is-scrolled) .nav a, body.is-night .hdr:not(.is-scrolled) .topbar a, body.is-night .hdr:not(.is-scrolled) .lang__btn, body.is-night .hdr:not(.is-scrolled) .burger, body.is-night .hdr:not(.is-scrolled) .brand__tag { color: #fff; }
+body.is-night .hdr:not(.is-scrolled) .topbar { background: transparent; color: #C9DFEC; }
+
+.scene {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 0;
+  --ship-scale: 1.12;
+  --sun: #F4C95D; --sk-a: #EAF4F9; --sk-b: #FBF9F4; --c-cloud: #fff; --cloud-o: .92;
+  --c-far: #CFE4EF; --c-ledge: #9CC4DA; --c-ledge-d: #8AB6CF; --c-bridge: #5E96B5; --c-river1: #BFDCEB; --c-river2: #7FB3CF;
+  --c-hull: #fff; --c-window: #fff; --c-near: #2A86B3;
+}
+.scene[data-watch="night"] {
+  --sk-a: #0B3552; --sk-b: #145A82; --c-cloud: #2A5C80; --cloud-o: .6; --c-far: #0F4A70; --c-ledge: #0D3F63; --c-ledge-d: #0A3556;
+  --c-bridge: #0A2F4A; --c-river1: #0F4A70; --c-river2: #145A82; --c-hull: #E8EEF2; --c-window: var(--lamp); --c-near: #2A86B3;
+}
+.scene * { transition: fill 1.2s ease-in-out, stroke 1.2s ease-in-out, opacity 1.2s ease-in-out; }
+.sk-a { stop-color: var(--sk-a); transition: stop-color 1.2s ease-in-out; }
+.sk-b { stop-color: var(--sk-b); transition: stop-color 1.2s ease-in-out; }
+.scene__sky { position: absolute; inset: 0; }
+.scene__sky svg { width: 100%; height: 100%; }
+.scene__stage { position: absolute; bottom: 0; height: var(--sh); width: var(--w); left: clamp(calc(100% - var(--w)), calc(50% - 0.66 * var(--w)), 0px); }
+.layer { position: absolute; top: 0; bottom: 0; left: -5.5556%; width: 111.1111%; will-change: transform; }
+.layer svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.layer--l9, .layer--l1 { will-change: auto; }
+
+.hit { position: absolute; pointer-events: auto; background: none; border: 0; border-radius: 16px; cursor: pointer; display: block; }
+.hit:focus-visible { outline: 3px solid var(--sea-500); outline-offset: 3px; }
+.hit--ship { border-radius: 24px; }
+.bubble { position: absolute; transform: translate(-30%, -100%); background: var(--white); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--sh-2); padding: 6px 10px; white-space: nowrap; pointer-events: none; z-index: 3; }
+
+/* солнце / луна, звёзды, окна (H13, H14) */
+.sun, .moon { transition: transform 1.2s ease-in-out, opacity 1.2s ease-in-out; }
+.moon { transform: translateY(160px); opacity: 0; }
+.scene[data-watch="night"] .sun { transform: translateY(160px); opacity: 0; }
+.scene[data-watch="night"] .moon { transform: none; opacity: 1; }
+.star { opacity: 0; transition: opacity 1.2s ease-in-out; }
+.scene[data-watch="night"] .star { opacity: 1; }
+.tw { animation: twinkle 3s ease-in-out infinite alternate; }
+@keyframes twinkle { from { opacity: .4; } to { opacity: 1; } }
+.cwin { opacity: 0; }
+.scene[data-watch="night"] .cwin { opacity: .9; }
+.lamps { opacity: 0; }
+.scene[data-watch="night"] .lamps { opacity: .9; }
+.twin { opacity: .55; }
+.scene[data-watch="night"] .twin { opacity: 1; }
+.glow { opacity: 0; }
+.scene[data-watch="night"] .glow, .scene.ship-hover .glow { opacity: 1; }
+.mast-lamp { opacity: 0; }
+.scene[data-watch="night"] .mast-lamp { opacity: 1; }
+.scene[data-watch="night"] .glint { fill: var(--sand-100); }
+
+/* движение */
+.drift { animation: cloud-drift linear infinite; }
+@keyframes cloud-drift { from { transform: translateX(-300px); } to { transform: translateX(2000px); } }
+.strip { transform-box: fill-box; }
+.drift-l { animation: strip-l linear infinite; }
+.drift-r { animation: strip-r linear infinite; }
+@keyframes strip-l { to { transform: translateX(-1800px); } }
+@keyframes strip-r { from { transform: translateX(-1800px); } to { transform: translateX(0); } }
+.refl { transform-box: fill-box; transform-origin: center; animation: refl 2.4s ease-in-out infinite alternate; }
+@keyframes refl { from { transform: scaleX(.6) translateX(-6px); } to { transform: scaleX(1) translateX(6px); } }
+.glint { opacity: 0; animation: glint 4s ease-in-out infinite; }
+@keyframes glint { 0%, 70%, 100% { opacity: 0; } 85% { opacity: .9; } }
+.ship-bob { animation: bob 5s ease-in-out infinite alternate; }
+.ship-scale { transform: scale(var(--ship-scale)); }
+.flag { transform-box: fill-box; transform-origin: left center; animation: flag 1.8s ease-in-out infinite alternate; }
+.scene.ship-hover .flag { animation-duration: .9s; }
+.win { transition: fill 200ms ease-in-out; }
+.scene.ship-hover .win { fill: var(--lamp); transition: fill 180ms ease-in-out; transition-delay: calc(var(--i) * 70ms); }
+.v { transform-box: fill-box; transform-origin: left center; animation: wake 3s ease-out infinite; opacity: 0; }
+@keyframes wake { 0% { transform: scaleX(.8); opacity: .8; } 100% { transform: scaleX(1.3); opacity: 0; } }
+.gw2 { display: none; }
+.gull.up .gw1 { display: none; }
+.gull.up .gw2 { display: block; }
+.eyes { transform-box: fill-box; transform-origin: center; animation: blink 7s infinite; }
+@keyframes blink { 0%, 97% { transform: scaleY(1); } 98.5% { transform: scaleY(.1); } 100% { transform: scaleY(1); } }
+.tiger-flip { transform-box: fill-box; transform-origin: center; }
+.scene.tiger-turn .tiger-flip { transform: scaleX(-1); }
+.hero.is-offscreen .scene *, .hero.is-offscreen .scene { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) {
+  .scene *, .scene { animation: none !important; }
+  .scene * { transition-duration: .001ms !important; }
+  .glint, .v { display: none; }
+}
+
+/* UI поверх сцены */
+.scene-ui { position: absolute; z-index: 3; }
+.scene__hint { position: absolute; z-index: 3; left: var(--gutter); bottom: 28px; color: var(--sea-700); text-decoration: none; display: inline-flex; gap: 8px; align-items: center; min-height: 44px; font-size: .6875rem; background: rgba(255,255,255,.7); padding: 0 12px; border-radius: 999px; }
+.scene__hint:hover { text-decoration: underline; text-underline-offset: 4px; }
+.scene__hint .ic { animation: nudge 4s ease-in-out infinite; }
+@keyframes nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
+.watch { position: absolute; z-index: 3; right: var(--gutter); bottom: 28px; width: 104px; height: 44px; border-radius: 999px; background: var(--white); border: 1px solid var(--line); color: var(--sea-900); display: inline-flex; align-items: center; justify-content: center; gap: 8px; box-shadow: var(--sh-1); }
+.watch:hover { background: var(--sea-50); }
+.watch .mono { font-size: .6875rem; }
+@media (max-width: 1023px) {
+  .scene { --ship-scale: .98; }
+}
+@media (max-width: 767px) {
+  .hero { --sh: 420px; }
+  .scene { --ship-scale: .775; }
+  .hero { padding-bottom: 0; }
+  .hero__grid { padding-bottom: 372px; }
+  .hero__card { margin-bottom: -48px; position: relative; z-index: 2; }
+  .scene__hint { left: 50%; transform: translateX(-50%); bottom: 20px; white-space: nowrap; }
+  .watch { bottom: calc(var(--sh) - 104px); right: var(--gutter); }
+  .hero .facts { display: none; }
+}
+
+.cir { opacity: .5; transition: opacity 1.2s; }
+.scene[data-watch="night"] .cir { opacity: .07; }

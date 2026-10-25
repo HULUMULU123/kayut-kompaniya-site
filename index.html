@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Хостел «Кают-компания» в центре Хабаровска: мини-отель, каюты, бронирование</title>
+<meta name="description" content="Мини-отель и хостел в центре Хабаровска, ул. Гоголя, 21. Ортопедические матрасы, чистые санузлы, охраняемая парковка. Выберите каюту на схеме корабля.">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#FBF9F4">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Хостел «Кают-компания»: каюты в центре Хабаровска">
+<meta property="og:description" content="Выберите каюту на схеме корабля. Мини-отель и хостел, ул. Гоголя, 21.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="/assets/og.png">
+<link rel="preload" href="/node_modules/@fontsource/playfair-display/files/playfair-display-cyrillic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/node_modules/@fontsource/onest/files/onest-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/assets/img/dbeb02c6c07214b3.webp" type="image/webp">
+<!-- TODO: заменить kayut-company.example на боевой домен -->
+<link rel="alternate" hreflang="ru" href="https://kayut-company.example/?lang=ru">
+<link rel="alternate" hreflang="en" href="https://kayut-company.example/?lang=en">
+<link rel="alternate" hreflang="zh" href="https://kayut-company.example/?lang=zh">
+<link rel="alternate" hreflang="ja" href="https://kayut-company.example/?lang=ja">
+<link rel="alternate" hreflang="ko" href="https://kayut-company.example/?lang=ko">
+<link rel="alternate" hreflang="x-default" href="https://kayut-company.example/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Hotel","name":"Кают-компания","description":"Мини-отель и хостел в центре Хабаровска","address":{"@type":"PostalAddress","streetAddress":"ул. Гоголя, 21","addressLocality":"Хабаровск","addressCountry":"RU"},"telephone":"+7 909 800-77-66","email":"bron.kayt-company@mail.ru","image":"/assets/img/f43a11ca85f86fe1-1200.webp"}
+</script>
+<script>(function(){var d=document.documentElement;d.classList.add('js');if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('anim');setTimeout(function(){if(!window.__kk)d.classList.remove('anim')},5000)}})();</script>
+<script type="module" src="/src/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Перейти к содержимому</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<div class="hdr" id="hdr">
+  <div class="topbar" id="topbar">
+    <div class="container topbar__in">
+      <span class="topbar__item" data-i18n="top.address">Хабаровск, ул. Гоголя, 21</span>
+      <a class="topbar__item" href="tel:+79098007766">+7 909 800-77-66</a>
+    </div>
+  </div>
+  <header class="header" id="header">
+    <div class="container header__in">
+      <a class="brand" href="#top" aria-label="Кают-компания, на главную" data-i18n-attr="aria-label:brand.label">
+        <img src="/assets/img/dbeb02c6c07214b3.webp" width="40" height="40" alt="">
+        <span class="brand__tag mono" data-i18n="brand.tag">ХОСТЕЛ · ХАБАРОВСК</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация" data-i18n-attr="aria-label:nav.main">
+        <a href="#rooms" data-spy="rooms" data-i18n="nav.rooms">Каюты</a>
+        <a href="#amenities" data-spy="amenities" data-i18n="nav.amenities">Что на борту</a>
+        <a href="#route" data-spy="route" data-i18n="nav.route">Как нас найти</a>
+        <a href="#reviews" data-spy="reviews" data-i18n="nav.reviews">Отзывы</a>
+        <a href="#contacts" data-spy="contacts" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+      <div class="header__end">
+        <div class="lang" id="lang">
+          <button class="lang__btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="langList">
+            <span id="langCur">RU</span><span data-ic="chevron-down" data-size="16"></span>
+          </button>
+          <ul class="lang__list" id="langList" hidden>
+            <li><button type="button" data-lang="ru" lang="ru">RU</button></li>
+            <li><button type="button" data-lang="en" lang="en">EN</button></li>
+            <li><button type="button" data-lang="zh" lang="zh">中文</button></li>
+            <li><button type="button" data-lang="ja" lang="ja">日本語</button></li>
+            <li><button type="button" data-lang="ko" lang="ko">한국어</button></li>
+          </ul>
+        </div>
+        <button class="btn btn--primary btn--sm header__book" type="button" data-open-booking><span data-i18n="cta.book">Забронировать</span><span data-ic="arrow-right" data-size="20" class="btn__arrow"></span></button>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu" data-i18n-attr="aria-label:menu.open"><span data-ic="menu" data-size="24"></span></button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню" hidden data-i18n-attr="aria-label:menu.title">
+  <div class="menu__top">
+    <span class="mono" data-i18n="brand.tag">ХОСТЕЛ · ХАБАРОВСК</span>
+    <button class="icon-btn" type="button" id="menuClose" aria-label="Закрыть меню" data-i18n-attr="aria-label:menu.close"><span data-ic="x" data-size="24"></span></button>
+  </div>
+  <nav class="menu__nav" aria-label="Мобильная навигация">
+    <a href="#rooms" data-i18n="nav.rooms">Каюты</a>
+    <a href="#amenities" data-i18n="nav.amenities">Что на борту</a>
+    <a href="#route" data-i18n="nav.route">Как нас найти</a>
+    <a href="#reviews" data-i18n="nav.reviews">Отзывы</a>
+    <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+  </nav>
+  <div class="menu__bottom">
+    <a class="menu__link" href="tel:+79098007766"><span data-ic="phone" data-size="20"></span>+7 909 800-77-66</a>
+    <a class="menu__link" href="https://wa.me/79098007766" rel="noopener"><span data-ic="message-circle" data-size="20"></span>WhatsApp</a>
+    <button class="btn btn--primary btn--block" type="button" data-open-booking><span data-i18n="cta.book">Забронировать</span><span data-ic="arrow-right" data-size="20" class="btn__arrow"></span></button>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- S2 HERO -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="scene" id="scene" data-watch="day"><div class="scene__stage" id="stage"></div></div>
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow hero__eyebrow" data-i18n="hero.eyebrow">Мини-отель и хостел · Хабаровск, ул. Гоголя, 21</p>
+      <h1 id="hero-title" class="hero__h1" data-i18n-html="hero.h1"><span class="accent-word">Каюты</span> в центре Хабаровска</h1>
+      <p class="hero__sub" data-i18n="hero.sub">Мини-отель «Кают-компания»: ортопедические матрасы, чистые санузлы, охраняемая парковка. Набережная Амура рядом.</p>
+      <div class="hero__card" data-booking="hero"></div>
+      <ul class="facts" aria-label="Коротко о нас" data-i18n-attr="aria-label:hero.facts">
+        <li><span data-ic="map-pin" data-size="20"></span><span data-i18n="hero.f1">В центре города</span></li>
+        <li><span data-ic="bed-double" data-size="20"></span><span data-i18n="hero.f2">Ортопедические матрасы</span></li>
+        <li><span data-ic="car" data-size="20"></span><span data-i18n="hero.f3">Охраняемая парковка</span></li>
+      </ul>
+    </div>
+    </div>
+  <a class="scene__hint mono" href="#rooms"><span data-i18n="hero.hint">ТОТ ЖЕ КОРАБЛЬ В РАЗРЕЗЕ НИЖЕ</span><span data-ic="arrow-right" data-size="16" style="transform:rotate(90deg)"></span></a>
+  <button class="watch" id="watch" type="button" aria-pressed="false" aria-label="Сменить вахту: ночь"></button>
+</section>
+
+<!-- S3 КАЮТЫ -->
+<section class="section rooms" id="rooms" aria-labelledby="rooms-title">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow" data-i18n="rooms.eyebrow">Каюты</p>
+      <h2 id="rooms-title" data-i18n="rooms.h2">Выберите каюту на борту</h2>
+      <p class="sec-head__sub" data-i18n="rooms.sub">Нажмите на каюту. Тёплым светом горят те, что подходят вашей компании.</p>
+    </header>
+
+    <div class="rooms__bar" id="roomsBar">
+      <div class="rooms__bar-in">
+        <div class="chips" id="chips" role="group" aria-label="Фильтр по составу гостей" data-i18n-attr="aria-label:rooms.filter"></div>
+        <div class="rooms__right">
+          <p class="mono rooms__count" id="roomsCount" aria-live="polite"></p>
+          <div class="seg seg--sm" id="viewSeg" role="group" aria-label="Вид"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rooms__views">
+      <div class="view view--ship" id="viewShip">
+        <p class="hint" id="shipHint"><span data-ic="pointer" data-size="18"></span><span data-i18n="rooms.hint">Нажмите на каюту</span></p>
+        <div class="ship" id="ship"></div>
+        <p class="small muted ship__note" data-i18n="rooms.note">Условная схема корабля: показывает категории номеров, а не реальную планировку этажей.</p>
+      </div>
+      <div class="view view--list" id="viewList" hidden>
+        <div class="grid-rooms" id="roomGrid"></div>
+      </div>
+      <div class="empty" id="empty" hidden>
+        <span data-ic="compass" data-size="48"></span>
+        <h3 data-i18n="rooms.emptyT">Для этого состава каюты не нашлось</h3>
+        <p data-i18n="rooms.emptyP">Напишите нам: подберём вариант под вашу компанию.</p>
+        <div class="empty__btns">
+          <a class="btn btn--secondary" href="https://wa.me/79098007766" rel="noopener" data-i18n="cta.wa">Написать в WhatsApp</a>
+          <button class="btn-ghost" type="button" id="resetFilter" data-i18n="rooms.reset">Сбросить фильтр</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S4 НА БОРТУ -->
+<section class="section amen" id="amenities" aria-labelledby="amen-title">
+  <div class="container amen__grid">
+    <div class="amen__side">
+      <p class="eyebrow reveal" data-i18n="amen.eyebrow">На борту</p>
+      <h2 id="amen-title" class="reveal" data-i18n="amen.h2">Всё для спокойного сна</h2>
+      <p class="reveal" data-i18n="amen.p">Мы оснастили ортопедическими матрасами и номера, и хостел. Особое внимание уделяем чистоте в номерах и санузлах.</p>
+      <svg class="amen__buoy" data-graphic="lifebuoy" width="72" height="72" viewBox="0 0 24 24" aria-hidden="true"></svg>
+    </div>
+    <div class="log" id="log">
+      <div class="log__rail" aria-hidden="true"><div class="log__fill" id="logFill"></div></div>
+      <ol class="log__list" id="logList"></ol>
+      <div class="log__extra reveal">
+        <p class="mono muted" data-i18n="amen.extra">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
+        <ul class="chip-links">
+          <li><a class="chip-link" href="#contacts" data-i18n="amen.robe">Аренда халата</a></li>
+          <li><a class="chip-link" href="#contacts" data-i18n="amen.linen">Дополнительная смена белья</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S5 КУРС ОТ ВОКЗАЛА -->
+<section class="section route" id="route" aria-labelledby="route-title">
+  <svg class="divider divider--top" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V20C1320 40 1200 40 1080 22S840 4 720 22 480 44 360 26 120 8 0 24Z" fill="var(--paper)"/></svg>
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow" data-i18n="route.eyebrow">Как нас найти</p>
+      <h2 id="route-title" data-i18n="route.h2">Курс от вокзала и аэропорта</h2>
+    </header>
+    <div class="route__grid">
+      <div class="route__map" id="routeMap"></div>
+      <div class="route__side">
+        <div class="tabs" role="tablist" aria-label="Способ добраться" id="routeTabs" data-i18n-attr="aria-label:route.tabs"></div>
+        <div id="routePanel" class="route__panel" role="tabpanel" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+  <svg class="divider divider--bottom" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 48V28C120 8 240 6 360 22S600 42 720 24 960 4 1080 22 1320 44 1440 24V48Z" fill="var(--sand-100)"/></svg>
+</section>
+
+<!-- S6 РАДАР «РЯДОМ С ЯКОРЕМ» -->
+<section class="section nearby" id="nearby" aria-labelledby="near-title">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow" data-i18n="near.eyebrow">Рядом</p>
+      <h2 id="near-title" data-i18n="near.h2">Что рядом с якорем</h2>
+      <p class="sec-head__sub" data-i18n="near.sub">Нажимайте на метки и собирайте свой маршрут на день. Время пешком считаем от ул. Гоголя, 21.</p>
+    </header>
+    <div class="near__bar">
+      <div class="chips" id="moodChips" role="group" aria-label="Что хотите увидеть" data-i18n-attr="aria-label:near.mood"></div>
+      <div class="seg seg--sm" id="nearSeg" role="group" aria-label="Вид"></div>
+    </div>
+    <div class="near__grid" id="nearMap">
+      <div class="radar-wrap"><div id="radar"></div><p class="small muted radar__note" data-i18n="near.note">Схема: время пешком ориентировочное</p></div>
+      <div class="near__panel">
+        <div id="placeCard" class="place-card" aria-live="polite"></div>
+        <section class="day" aria-labelledby="day-title"><div class="day__head"><h3 id="day-title" data-i18n="near.day">Мой день</h3><span class="mono muted" data-i18n="near.log">ВАХТЕННЫЙ ЖУРНАЛ</span></div><div id="dayBody"></div></section>
+      </div>
+    </div>
+    <div class="grid-places" id="nearList" hidden></div>
+  </div>
+</section>
+
+<!-- S7 ОТЗЫВЫ -->
+<section class="section reviews" id="reviews" aria-labelledby="rev-title">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow" data-i18n="rev.eyebrow">Отзывы</p>
+      <h2 id="rev-title" data-i18n="rev.h2">Гости пишут</h2>
+      <p class="small muted" data-i18n="rev.sub">Из отзывов на Яндексе, 2ГИС и Google</p>
+    </header>
+    <div class="grid-rev" id="revGrid"></div>
+  </div>
+</section>
+
+<!-- S8 FAQ -->
+<section class="section faq" id="faq" aria-labelledby="faq-title">
+  <div class="container faq__grid">
+    <div class="faq__side">
+      <p class="eyebrow reveal" data-i18n="faq.eyebrow">Вопросы</p>
+      <h2 id="faq-title" class="reveal" data-i18n="faq.h2">Коротко о важном</h2>
+      <a class="btn btn--secondary reveal" href="https://wa.me/79098007766" rel="noopener" data-i18n="cta.wa">Написать в WhatsApp</a>
+    </div>
+    <div class="acc" id="acc"></div>
+  </div>
+</section>
+
+<!-- S9 ФИНАЛЬНЫЙ ПРИЗЫВ -->
+<section class="section final" id="book" aria-labelledby="book-title">
+  <svg class="divider divider--top" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V24C1320 44 1200 44 1080 26S840 6 720 24 480 44 360 28 120 10 0 26Z" fill="var(--paper)"/></svg>
+  <div class="container final__in">
+    <div class="final__head reveal">
+      <span class="final__anchor" id="anchorIcon" data-ic="anchor" data-size="56"></span>
+      <h2 id="book-title" data-i18n="final.h2">Готовы встать на якорь?</h2>
+      <p class="sec-head__sub" data-i18n="final.sub">Выберите даты, и мы подберём каюту.</p>
+    </div>
+    <div class="final__card reveal" data-booking="final"></div>
+    <div class="final__btns reveal">
+      <a class="btn btn--secondary" href="tel:+79098007766"><span data-ic="phone" data-size="20"></span><span data-i18n="cta.call">Позвонить</span></a>
+      <a class="btn btn--secondary" href="https://wa.me/79098007766" rel="noopener"><span data-ic="message-circle" data-size="20"></span><span data-i18n="cta.wa">Написать в WhatsApp</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- S10 КОНТАКТЫ -->
+<section class="section contacts" id="contacts" aria-labelledby="con-title">
+  <div class="container contacts__grid">
+    <div class="contacts__info">
+      <p class="eyebrow reveal" data-i18n="con.eyebrow">Контакты</p>
+      <h2 id="con-title" class="reveal" data-i18n="con.h2">Приходите в гости</h2>
+      <ul class="clist reveal">
+        <li><span data-ic="map-pin" data-size="24"></span><div><p class="mono muted" data-i18n="con.addr">АДРЕС</p><a href="https://2gis.ru/khabarovsk/search/%D1%83%D0%BB.%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2C%2021" rel="noopener" target="_blank" data-i18n="con.addrV">г. Хабаровск, ул. Гоголя, 21</a></div></li>
+        <li><span data-ic="phone" data-size="24"></span><div><p class="mono muted" data-i18n="con.phone">ТЕЛЕФОН</p><a href="tel:+79098007766">+7 909 800-77-66</a></div></li>
+        <li><span data-ic="message-circle" data-size="24"></span><div><p class="mono muted">WHATSAPP</p><a href="https://wa.me/79098007766" rel="noopener">+7 (909) 800-77-66</a></div></li>
+        <li><span data-ic="mail" data-size="24"></span><div><p class="mono muted">EMAIL</p><a href="mailto:bron.kayt-company@mail.ru">bron.kayt-company@mail.ru</a></div></li>
+      </ul>
+      <div class="contacts__btns reveal">
+        <a class="btn btn--primary" href="https://2gis.ru/khabarovsk/search/%D1%83%D0%BB.%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2C%2021" rel="noopener" target="_blank"><span data-i18n="con.route">Построить маршрут</span><span data-ic="arrow-right" data-size="20" class="btn__arrow"></span></a>
+        <a class="btn btn--secondary" href="tel:+79098007766" data-i18n="cta.call">Позвонить</a>
+      </div>
+    </div>
+    <div class="contacts__map reveal">
+      <!-- TODO: подключить iframe 2ГИС или Яндекс.Карт (loading="lazy") -->
+      <div class="map-ph" role="img" aria-label="Карта: подключается" data-i18n-attr="aria-label:con.mapAria">
+        <span data-ic="anchor" data-size="40"></span>
+        <p class="mono">TODO: ПОДКЛЮЧИТЬ КАРТУ</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- S11 ПОДВАЛ -->
+<footer class="footer" id="footer">
+  <svg class="divider divider--top" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V22C1320 42 1200 42 1080 24S840 6 720 24 480 44 360 26 120 8 0 24Z" fill="var(--paper)"/></svg>
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="/assets/img/dbeb02c6c07214b3.webp" width="48" height="48" alt="" loading="lazy">
+      <p data-i18n="foot.slogan">Мини-отель и хостел в центре Хабаровска</p>
+    </div>
+    <nav class="footer__nav" aria-label="Навигация в подвале">
+      <a href="#rooms" data-i18n="nav.rooms">Каюты</a>
+      <a href="#amenities" data-i18n="nav.amenities">Что на борту</a>
+      <a href="#route" data-i18n="nav.route">Как нас найти</a>
+      <a href="#reviews" data-i18n="nav.reviews">Отзывы</a>
+      <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+    </nav>
+    <div class="footer__contacts">
+      <a href="tel:+79098007766">+7 909 800-77-66</a>
+      <a href="mailto:bron.kayt-company@mail.ru">bron.kayt-company@mail.ru</a>
+      <span data-i18n="con.addrV">г. Хабаровск, ул. Гоголя, 21</span>
+    </div>
+  </div>
+  <div class="container"><svg class="rope" data-graphic="rope" viewBox="0 0 1200 12" preserveAspectRatio="none" aria-hidden="true"></svg></div>
+  <div class="container footer__bottom small">
+    <span data-i18n="foot.copy">© Кают-компания, 2026</span>
+    <a href="/docs/privacy_policy_ru.pdf" target="_blank" rel="noopener" data-i18n="foot.privacy">Политика конфиденциальности</a>
+    <button class="btn-ghost btn-ghost--light" type="button" id="footLang" data-i18n="foot.lang">Сменить язык</button>
+  </div>
+</footer>
+
+<!-- Мобильная панель брони -->
+<div class="mbar" id="mbar" aria-hidden="true">
+  <button class="btn btn--primary btn--block" type="button" data-open-booking tabindex="-1"><span data-i18n="cta.book">Забронировать</span><span data-ic="arrow-right" data-size="20" class="btn__arrow"></span></button>
+</div>
+
+<!-- Подложка, drawer, модалка -->
+<div class="overlay" id="overlay" hidden></div>
+
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+  <div class="drawer__handle" aria-hidden="true"></div>
+  <button class="icon-btn drawer__close" type="button" id="drawerClose" aria-label="Закрыть" data-i18n-attr="aria-label:cta.close"><span data-ic="x" data-size="24"></span></button>
+  <div class="drawer__scroll" id="drawerBody"></div>
+  <div class="drawer__foot" id="drawerFoot"></div>
+</aside>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__sheet" id="modalSheet">
+    <div class="drawer__handle" aria-hidden="true"></div>
+    <button class="icon-btn modal__close" type="button" id="modalClose" aria-label="Закрыть" data-i18n-attr="aria-label:cta.close"><span data-ic="x" data-size="24"></span></button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Cookie -->
+<div class="cookie" id="cookie" role="region" aria-label="Cookie" hidden>
+  <p class="small" data-i18n-html="cookie.text">Мы используем cookie, чтобы сайт работал удобнее. Подробнее в <a href="/docs/privacy_policy_ru.pdf" target="_blank" rel="noopener">политике конфиденциальности</a>.</p>
+  <div class="cookie__btns">
+    <button class="btn btn--primary btn--sm" type="button" id="cookieAll"><span data-i18n="cookie.all">Принять все</span></button>
+    <button class="btn-ghost" type="button" id="cookieSet" data-i18n="cookie.set">Настроить</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

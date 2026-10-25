@@ -1,0 +1,12 @@
+{
+ "name": "Кают-компания",
+ "address": "г. Хабаровск, ул. Гоголя, 21",
+ "phone": "+7 909 800-77-66",
+ "phoneHref": "tel:+79098007766",
+ "whatsapp": "https://wa.me/79098007766",
+ "email": "bron.kayt-company@mail.ru",
+ "logo": "/assets/img/dbeb02c6c07214b3.webp",
+ "bookingUrl": "https://hostelkaytcompany.ru/booking/",
+ "privacy": "/docs/privacy_policy_ru.pdf",
+ "mapQuery": "https://2gis.ru/khabarovsk/search/%D1%83%D0%BB.%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2C%2021"
+}
